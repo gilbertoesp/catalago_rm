@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* 1rem = 10px */
+    font-size: 67.5%;
+}
+
+h1 {
+    text-align: center;
+}
+/* Rejilla */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+/* Tarjetas */
+.image-container {
+    display: flex;
+}
+.image-container img{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+}
